@@ -21,13 +21,10 @@
  * @endcond
  */
 
-package org.lightjason.agentspeak.action;
+package org.lightjason.agentspeak.action.shape;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.lightjason.agentspeak.action.shape.CInCircle;
-import org.lightjason.agentspeak.action.shape.CInRectangle;
-import org.lightjason.agentspeak.action.shape.CInTriangle;
 import org.lightjason.agentspeak.language.CRawTerm;
 import org.lightjason.agentspeak.language.ITerm;
 import org.lightjason.agentspeak.language.execution.IContext;
