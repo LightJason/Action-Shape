@@ -48,7 +48,7 @@ import java.util.stream.Stream;
  *
  * {@code [In1|In2] = .math/shape/intriangle( [[350,320], [25,375], 40,55], [160,270], 0,0 );}
  *
- * @see https://en.wikipedia.org/wiki/Barycentric_coordinate_system
+ * @see <a href="https://en.wikipedia.org/wiki/Barycentric_coordinate_system"></a>
  */
 public final class CInTriangle extends IBaseAction
 {
