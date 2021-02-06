@@ -23,8 +23,8 @@
 
 package org.lightjason.agentspeak.action.shape;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.lightjason.agentspeak.language.CRawTerm;
 import org.lightjason.agentspeak.language.ITerm;
 import org.lightjason.agentspeak.language.execution.IContext;
@@ -55,9 +55,9 @@ public final class TestCActionMathShape extends IBaseTest
             l_return
         );
 
-        Assert.assertEquals( 2, l_return.size() );
-        Assert.assertFalse( l_return.get( 0 ).<Boolean>raw() );
-        Assert.assertTrue( l_return.get( 1 ).<Boolean>raw() );
+        Assertions.assertEquals( 2, l_return.size() );
+        Assertions.assertFalse( l_return.get( 0 ).<Boolean>raw() );
+        Assertions.assertTrue( l_return.get( 1 ).<Boolean>raw() );
     }
 
     /**
@@ -74,9 +74,9 @@ public final class TestCActionMathShape extends IBaseTest
             l_return
         );
 
-        Assert.assertEquals( 2, l_return.size() );
-        Assert.assertTrue( l_return.get( 0 ).<Boolean>raw() );
-        Assert.assertFalse( l_return.get( 1 ).<Boolean>raw() );
+        Assertions.assertEquals( 2, l_return.size() );
+        Assertions.assertTrue( l_return.get( 0 ).<Boolean>raw() );
+        Assertions.assertFalse( l_return.get( 1 ).<Boolean>raw() );
     }
 
     /**
@@ -93,9 +93,9 @@ public final class TestCActionMathShape extends IBaseTest
             l_return
         );
 
-        Assert.assertEquals( 2, l_return.size() );
-        Assert.assertTrue( l_return.get( 0 ).<Boolean>raw() );
-        Assert.assertFalse( l_return.get( 1 ).<Boolean>raw() );
+        Assertions.assertEquals( 2, l_return.size() );
+        Assertions.assertTrue( l_return.get( 0 ).<Boolean>raw() );
+        Assertions.assertFalse( l_return.get( 1 ).<Boolean>raw() );
     }
 
 }
